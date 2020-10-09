@@ -549,7 +549,7 @@
         </div>
 
         <div class="social-networks">
-          <b class="social-networks__title">Присоединяйтесь</b>
+          <b class="footer__title">Присоединяйтесь</b>
 
           <ul class="social-networks__list">
             <li class="social-networks__item">
@@ -617,6 +617,26 @@
             </li>
           </ul>
         </div>
+
+        <div class="subscription">
+          <b class="footer__title">Подпишитесь на рассылку</b>
+          <form class="subscription__form">
+            <input
+              class="subscription__input"
+              type="email"
+              name="mail"
+              id="mail"
+              placeholder="E-mail"
+            />
+
+            <button class="subscription__button button" type="submit">
+              <span>Подписаться</span>
+              <svg class="subscription__icon" width="24" height="24">
+                <use href="./images/sprite.svg#icon-send"></use>
+              </svg>
+            </button>
+          </form>
+        </div>
       </div>
     </footer>
 
@@ -624,12 +644,6 @@
 
     <div data-modal class="backdrop backdrop--hidden">
       <div class="modal">
-        <!-- <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto
-          eum dicta voluptate corporis consequuntur debitis cupiditate suscipit
-          corrupti porro, aspernatur perferendis, rem, consequatur inventore
-          vero cumque? A consequuntur optio ratione?
-        </p> -->
         <button data-modal-close class="modal__button-close">
           <svg class="modal__close-icon" width="11" height="11">
             <use href="./images/sprite.svg#close-black"></use>
@@ -637,16 +651,102 @@
         </button>
       </div>
     </div>
+    <!-- test -->
+    <!-- <form class="form js-speaker-form" autocomplete="off">
+      <div class="form__field">
+        <label class="form__label" for="name">Имя</label>
+        <input
+          class="form__input"
+          type="text"
+          name="user-name"
+          id="name"
+          autocomplete="name"
+          placeholder="Ruslana"
+        />
+      </div>
+
+      <div class="form__field">
+        <label class="form__label" for="tel">Телефон</label>
+        <input class="form__input" type="tel" name="tel" id="tel" />
+      </div>
+
+      <div class="form__field">
+        <label class="form__label" for="mail">Почта</label>
+        <input class="form__input" type="email" name="mail" id="mail" />
+      </div>
+
+      <div role="group" class="group">
+        <b class="group__title">Подпишись</b>
+        <ul class="topic-options">
+          <li>
+            <input
+              type="checkbox"
+              name="topic"
+              value="html"
+              id="html"
+              checked
+            />
+            <label for="html">HTML</label>
+          </li>
+          <li>
+            <input type="checkbox" name="topic" value="css" id="css" />
+            <label for="css">CSS</label>
+          </li>
+        </ul>
+      </div>
+
+      <div role="group">
+        <h3>Опыт</h3>
+        <ul class="experince-options">
+          <li>
+            <input
+              type="radio"
+              name="experience"
+              value="junior"
+              id="junior"
+              checked
+            />
+            <label for="junior">Junior</label>
+          </li>
+          <li>
+            <input type="radio" name="experience" value="midle" id="midle" />
+            <label for="midle">Midle</label>
+          </li>
+        </ul>
+      </div>
+      <div class="form__field">
+        <label for="comment">Оставте комментарий</label>
+        <textarea
+          class="comment"
+          name="comment"
+          id="comment"
+          rows="10"
+        ></textarea>
+      </div>
+
+      <div class="form__field">
+        <input type="checkbox" name="policy" id="policy" />
+        <label for="policy">Соглашаюсь</label>
+      </div>
+
+      <button type="submit">Оставить заявку</button>
+    </form>  -->
+
     <script src="./js/modal.js"></script>
 
-    <label for="branch">Отделение:</label>
-    <input type="text" name="branch" id="branch" list="codes" />
+    <script>
+      (() => {
+        document
+          .querySelector('.js-speaker-form')
+          .addEventListener('submit', e => {
+            e.preventDefault();
 
-    <datalist id="codes">
-      <option value="3600">Шевченковский район</option>
-      <option value="7493">Железоугорский район</option>
-      <option value="2701">Центральный район</option>
-      <option value="5692">Зелёногорский район</option>
-    </datalist>
+            new FormData(e.currentTarget).forEach((value, name) =>
+              console.log(`${name}: ${value}`),
+            );
+            e.currentTarget.reset();
+          });
+      })();
+    </script>
   </body>
 </html>

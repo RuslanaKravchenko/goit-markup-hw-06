@@ -324,3 +324,62 @@
 .modal__button-close:hover {
   --color-close-black: var(--accent-color);
 }
+
+/* test */
+
+/* textarea {
+  resize: none;
+}
+
+.form {
+  width: 600px;
+  outline: 1px solid tomato;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+}
+
+.form__field {
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid blue;
+  margin-bottom: 20px;
+}
+
+.form__input {
+  margin: 0;
+  padding: 12px 42px;
+  border: 1px solid #2196f3;
+  border-radius: 3px;
+  color: teal;
+}
+
+.form__label {
+  margin-bottom: 5px;
+}
+
+.form__input::placeholder {
+  color: pink;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+}
+
+.group {
+}
+
+.topic-options input[type='checkbox'] {
+}
+
+.topic-options label {
+  margin-left: 10px;
+}
+.topic-options li {
+  display: flex;
+  align-items: center;
+}
+.experince-options {
+}
+
+.comment {
+  padding: 8px;
+} */
