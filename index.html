@@ -627,6 +627,7 @@
               name="mail"
               id="mail"
               placeholder="E-mail"
+              autocomplete="email"
             />
 
             <button class="subscription__button button" type="submit">
@@ -649,6 +650,50 @@
             <use href="./images/sprite.svg#close-black"></use>
           </svg>
         </button>
+
+        <form class="form-request js-speaker-form">
+          <h2 class="form-request__title">
+            Оставьте свои данные, мы вам перезвоним
+          </h2>
+
+          <div class="form__field">
+            <label for="name">Имя</label>
+            <input type="text" name="name" id="name" autocomplete="name" />
+          </div>
+
+          <div class="form__field">
+            <label for="tel">Телефон</label>
+            <input type="tel" name="tel" id="tel" />
+          </div>
+
+          <div class="form__field">
+            <label for="mail">Почта</label>
+            <input type="email" name="mail" id="mail" />
+          </div>
+
+          <div class="form__field field-comment">
+            <label for="comment">Комментарий</label>
+            <textarea
+              name="comment"
+              id="comment"
+              rows="10"
+              placeholder="Введите текст"
+            ></textarea>
+          </div>
+
+          <div class="policy">
+            <input type="checkbox" name="policy" id="policy" />
+            <label for="policy"
+              >Соглашаюсь с рассылкой и принимаю
+              <a href="">Условия договора</a></label
+            >
+          </div>
+          <div class="button-contianer">
+            <button class="form-request__button button" type="submit">
+              Отправить
+            </button>
+          </div>
+        </form>
       </div>
     </div>
     <!-- test -->
