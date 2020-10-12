@@ -255,8 +255,12 @@ img {
 }
 
 .address {
-  color: var(--primary-white-color);
   font-style: normal;
+}
+
+.address__geolocation {
+  color: var(--primary-white-color);
+  text-decoration: none;
   font-size: 14px;
   line-height: 1.71;
 }
