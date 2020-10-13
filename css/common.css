@@ -65,14 +65,14 @@ img {
 	width: 1200px;
 	padding: 0 15px;
 
-	outline: 2px solid tomato;
+	/* outline: 2px solid tomato; */
 }
 
 .section {
 	padding-top: 94px;
 	padding-bottom: 94px;
 
-	outline: 1px dotted turquoise;
+	/* outline: 1px dotted turquoise; */
 }
 
 .button {
