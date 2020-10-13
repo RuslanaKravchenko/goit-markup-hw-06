@@ -1,5 +1,19 @@
-/* Hero */
+/* ===================COMPONENTS==================== */
 
+.title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+
+/* ===================END COMPONENTS==================== */
+
+/* ====================HERO================= */
 .hero__wrapper {
   max-width: 1600px;
   height: 600px;
@@ -41,21 +55,9 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
-/* Section */
+/* ====================END HERO================= */
 
-.title {
-  margin-top: 0;
-  margin-bottom: 50px;
-
-  color: var(--title-text-color);
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-}
-
-/* Features */
-
+/* ===================FEATURES================= */
 .features-list {
   display: flex;
 }
@@ -92,8 +94,9 @@
   margin-bottom: 0;
 }
 
-/* Our work */
+/* ===================END FEATURES================= */
 
+/* ===================OUR WORK================= */
 .our-work {
   padding-top: 0;
   padding-bottom: 94px;
@@ -134,8 +137,9 @@
   background-color: rgba(47, 48, 58, 0.8);
 }
 
-/* Our team */
+/* ==================END OUR WORK================= */
 
+/* ===================OUR TEAM================= */
 .our-team {
   background-color: var(--secondary-bg-color);
 }
@@ -221,8 +225,9 @@
   transform: rotateY(180deg);
 }
 
-/* Regular clients */
+/* ===================END OUR TEAM================= */
 
+/* ===================REGULAR CLIENTS================= */
 .regular-clients__list {
   display: flex;
 }
@@ -259,8 +264,9 @@
   fill: var(--accent-color);
 }
 
-/* Modal window */
+/* ===================END REGULAR CLIENTS================= */
 
+/* ===================MODAL WINDOW================= */
 .backdrop {
   position: fixed;
   top: 0;
@@ -470,3 +476,5 @@
 
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
+
+/* ===================END MODAL WINDOW================= */

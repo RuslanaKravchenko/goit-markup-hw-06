@@ -47,6 +47,7 @@ img {
   height: auto;
 }
 
+/* ===================COMPONENTS==================== */
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -76,7 +77,6 @@ img {
   /* outline: 1px dotted turquoise; */
 }
 
-/* Button */
 .button {
   display: inline-block;
   border-radius: 4px;
@@ -94,8 +94,9 @@ img {
 
   cursor: pointer;
 }
+/* ====================END COMPONENTS===================== */
 
-/* Page header */
+/* ====================PAGE HEADER===================== */
 
 .header {
   border-bottom: 1px solid var(--secondary-border-color);
@@ -147,7 +148,6 @@ img {
 
   color: var(--title-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -187,7 +187,7 @@ img {
   transform: scaleX(1);
 } */
 
-/* Contacts */
+/* Contacts in header*/
 
 .contacts {
   display: flex;
@@ -207,7 +207,6 @@ img {
 
   color: var(--primary-text-color);
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
@@ -231,8 +230,9 @@ img {
   color: var(--accent-color);
 }
 
-/* Footer */
+/* ====================END PAGE HEADER===================== */
 
+/* ====================FOOTER===================== */
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -244,6 +244,8 @@ img {
   display: flex;
   align-items: baseline;
 }
+
+/* Footer contacts */
 
 .footer__contacts {
   margin-right: 70px;
@@ -261,19 +263,17 @@ img {
 .address__geolocation {
   color: var(--primary-white-color);
   text-decoration: none;
-  font-size: 14px;
-  line-height: 1.71;
 }
 
 .address__link {
   color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
-  line-height: 1.71;
   text-decoration: none;
 }
 .address__item:not(:last-child) {
   margin-bottom: 9px;
 }
+
+/* Footer social networks */
 
 .footer__title {
   display: block;
@@ -322,7 +322,7 @@ img {
   --color-social-networks: var(--primary-white-color);
 }
 
-/* Foter form */
+/* Footer form */
 
 .subscription {
   margin-left: auto;
@@ -366,3 +366,5 @@ img {
 .subscription__icon {
   margin-left: 10px;
 }
+
+/* ====================END FOOTER===================== */
