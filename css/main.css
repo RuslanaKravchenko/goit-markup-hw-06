@@ -18,16 +18,15 @@
 	max-width: 1600px;
 	margin-left: auto;
 	margin-right: auto;
+
+	text-align: center;
+	padding-top: 200px;
+	padding-bottom: 200px;
+
 	background-color: var(--hero-color);
 	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
 	background-position: center;
 	background-size: cover;
-}
-
-.hero__content {
-	text-align: center;
-	padding-top: 200px;
-	padding-bottom: 200px;
 }
 
 .hero__title {
@@ -179,8 +178,6 @@
 /* Flip */
 
 .scene {
-	margin-left: auto;
-	margin-right: auto;
 	perspective: 600px;
 }
 

@@ -240,14 +240,14 @@ img {
 
 .footer__container {
 	display: flex;
+	justify-content: space-between;
 	align-items: baseline;
 }
 
 /* Footer contacts */
 
 .footer__contacts {
-	margin-right: 70px;
-	width: 231px;
+	width: 270px;
 }
 
 .logo__footer {
@@ -275,7 +275,7 @@ img {
 /* Footer social networks */
 
 .social-networks {
-	width: 206px;
+	width: 270px;
 }
 
 .footer__title {
@@ -289,7 +289,6 @@ img {
 
 .social-networks__list {
 	display: flex;
-	justify-content: center;
 }
 
 .social-networks__link {
@@ -327,7 +326,6 @@ img {
 /* Footer form */
 
 .subscription {
-	margin-left: auto;
 	width: 570px;
 }
 
