@@ -291,6 +291,10 @@ img {
 	display: flex;
 }
 
+.social-networks__list--center {
+	justify-content: center;
+}
+
 .social-networks__link {
 	display: block;
 	width: 44px;
